@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "formulario-irregularidades-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/formularioIrregularidades/FormularioIrregularidadesWebPart.js",
+          "manifest": "./src/webparts/formularioIrregularidades/FormularioIrregularidadesWebPart.manifest.json"
+        }
+      ]
+    },
+    "controle-velocidade-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/controleVelocidade/ControleVelocidadeWebPart.js",
+          "manifest": "./src/webparts/controleVelocidade/ControleVelocidadeWebPart.manifest.json"
+        }
+      ]
+    },
+    "vagas-reservadas-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/vagasReservadas/VagasReservadasWebPart.js",
+          "manifest": "./src/webparts/vagasReservadas/VagasReservadasWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FormularioIrregularidadesWebPartStrings": "lib/webparts/formularioIrregularidades/loc/{locale}.js",
+    "ControleVelocidadeWebPartStrings": "lib/webparts/controleVelocidade/loc/{locale}.js",
+    "VagasReservadasWebPartStrings": "lib/webparts/vagasReservadas/loc/{locale}.js"
+  }
+}

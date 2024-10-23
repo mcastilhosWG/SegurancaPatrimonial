@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "irregularidades-client-side-solution",
+    "id": "134b605b-007b-40ae-966a-44d0eedc1f9e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "\tIrregularidades description"
+      },
+      "longDescription": {
+        "default": "\tIrregularidades description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "irregularidades Feature",
+        "description": "The feature that activates elements of the irregularidades solution.",
+        "id": "5b3fe25a-36f4-44a1-a8b9-a63436e35be2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/irregularidades.sppkg"
+  }
+}
